@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAkDG",
-    "sources": [
-        "style.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["sass/base/_typography.scss","sass/base/_reset.scss","sass/utils/_variables.scss","sass/layout/_main.scss","sass/components/_buttons.scss","sass/components/_card.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;EACA;EACA;;;ADDJ;AAAA;EAEE,aEDU;;;ACHZ;EACI;EACA;EACA;EACA;EACA;;;AAEJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE,kBDtBU;;;AC0Bd;EACE;;AACA;EACE;EACA;;AAEF;EACE;EACA;EACA;;;ACrCJ;EACI;EACA;EACA;EACA,YFJU;EEKV;EACA;EACA;;;AAEF;EACE;;;ACVJ;EACI;EACA;EAGA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;;AAGA;EACE;;AAEF;EACE;EACA","file":"style.css"}

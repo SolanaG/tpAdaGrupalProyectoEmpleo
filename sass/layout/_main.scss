@@ -1,0 +1,40 @@
+h3 {
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin: 20px;
+    color: #fff;
+    border: yellow solid 5px;
+  } 
+label {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+// Utility Classes (clases principales)
+.div_agregar {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+  }
+  
+  .p-80 {
+    padding: 80px;
+    //padding-top: 150px;
+  }
+  .bk{
+    background-color:$gray-color;
+  }
+
+// Form styles
+form {
+  padding: 60px;
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}

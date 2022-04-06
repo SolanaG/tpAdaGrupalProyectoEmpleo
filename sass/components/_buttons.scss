@@ -1,0 +1,12 @@
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background:$light-color ;
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: lighten($light-color, 10%);  
+  }

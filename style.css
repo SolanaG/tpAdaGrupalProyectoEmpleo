@@ -1,52 +1,90 @@
-/*body {
-    background-color: blueviolet;
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-#barra {
-    position: absolute;
-    width: 975px;
-    height: 64px;
-    left: 233px;
-    top: 40px;
-    background: #24CCCC;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-
+body,
+html {
+  font-family: "Karla", sans-serif;
 }
 
-#div_agregar {
-
-    position: absolute;
-    width: 312px;
-    height: 209.13px;
-    left: 579px;
-    top: 121px;
-    background: #147A7A;
-    border-radius: 26px;
-  
-} 
-
-#editar{
-    position: absolute;
-    width: 308.01px;
-    height: 155px;
-    left: 239.99px;
-    top: 347px;
-    background: #147A7A;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+h3 {
+  font-size: 1.563rem;
+  font-weight: 600;
+  margin: 20px;
+  color: #fff;
+  border: yellow solid 5px;
 }
 
-#div_eliminar{
-    position: absolute;
-    width: 387px;
-    height: 128.93px;
-    background: #147A7A;
-    border-radius: 26px;
+label {
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
-#eliminar{
-    border-bottom: #24CCCC;
-}*/
+.div_agregar {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.p-80 {
+  padding: 80px;
+}
+
+.bk {
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+form {
+  padding: 60px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #24CCCC;
+  padding: 13px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #45dede;
+}
+
+.card {
+  background: #147A7A;
+  border-radius: 26px;
+  border: red 5px solid;
+}
+.card_form {
+  padding: 30px;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card h3 {
+  padding-bottom: 20px;
+}
+.card form label {
+  text-align: left;
+}
+.card form button {
+  width: 30%;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
